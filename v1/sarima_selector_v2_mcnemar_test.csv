@@ -1,0 +1,2 @@
+﻿n11_both_correct,n00_both_wrong,n10_nn_correct_bic_wrong,n01_nn_wrong_bic_correct,n_discordant,mcnemar_exact_p,mcnemar_chi2_cc_statistic,mcnemar_chi2_cc_p,mcnemar_chi2_statistic,mcnemar_chi2_p,alpha,significant_exact,conclusion
+32,3863,1008,97,1105,1.1067951644863078e-191,749.4117647058823,5.38648149759818e-165,751.0597285067873,2.3603622398944063e-165,0.05,True,"Различие статистически значимо; нейросеть чаще классифицирует правильно, чем BIC, на парных наблюдениях."

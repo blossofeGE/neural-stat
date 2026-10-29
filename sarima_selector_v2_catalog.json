@@ -1,0 +1,802 @@
+[
+  {
+    "class_id": 0,
+    "name": "ARIMA(1, 0, 0)",
+    "order": [
+      1,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 1,
+    "name": "ARIMA(0, 0, 1)",
+    "order": [
+      0,
+      0,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 2,
+    "name": "ARIMA(1, 0, 1)",
+    "order": [
+      1,
+      0,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 3,
+    "name": "ARIMA(2, 0, 0)",
+    "order": [
+      2,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 4,
+    "name": "ARIMA(0, 0, 2)",
+    "order": [
+      0,
+      0,
+      2
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 5,
+    "name": "ARIMA(2, 0, 1)",
+    "order": [
+      2,
+      0,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 6,
+    "name": "ARIMA(1, 0, 2)",
+    "order": [
+      1,
+      0,
+      2
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 7,
+    "name": "ARIMA(2, 0, 2)",
+    "order": [
+      2,
+      0,
+      2
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 8,
+    "name": "ARIMA(1, 1, 0)",
+    "order": [
+      1,
+      1,
+      0
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 9,
+    "name": "ARIMA(0, 1, 1)",
+    "order": [
+      0,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 10,
+    "name": "ARIMA(1, 1, 1)",
+    "order": [
+      1,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 11,
+    "name": "ARIMA(2, 1, 0)",
+    "order": [
+      2,
+      1,
+      0
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 12,
+    "name": "ARIMA(0, 1, 2)",
+    "order": [
+      0,
+      1,
+      2
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 13,
+    "name": "ARIMA(2, 1, 1)",
+    "order": [
+      2,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 14,
+    "name": "ARIMA(1, 1, 2)",
+    "order": [
+      1,
+      1,
+      2
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 15,
+    "name": "ARIMA(2, 1, 2)",
+    "order": [
+      2,
+      1,
+      2
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 16,
+    "name": "ARIMA(0, 2, 1)",
+    "order": [
+      0,
+      2,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 17,
+    "name": "ARIMA(1, 2, 1)",
+    "order": [
+      1,
+      2,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "family": "ARIMA"
+  },
+  {
+    "class_id": 18,
+    "name": "SARIMA(0, 0, 0)x(1, 0, 0, 4)",
+    "order": [
+      0,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      4
+    ],
+    "family": "SARIMA_s4"
+  },
+  {
+    "class_id": 19,
+    "name": "SARIMA(0, 0, 0)x(0, 0, 1, 4)",
+    "order": [
+      0,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      1,
+      4
+    ],
+    "family": "SARIMA_s4"
+  },
+  {
+    "class_id": 20,
+    "name": "SARIMA(1, 0, 0)x(1, 0, 0, 4)",
+    "order": [
+      1,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      4
+    ],
+    "family": "SARIMA_s4"
+  },
+  {
+    "class_id": 21,
+    "name": "SARIMA(0, 0, 1)x(0, 0, 1, 4)",
+    "order": [
+      0,
+      0,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      1,
+      4
+    ],
+    "family": "SARIMA_s4"
+  },
+  {
+    "class_id": 22,
+    "name": "SARIMA(1, 0, 1)x(1, 0, 0, 4)",
+    "order": [
+      1,
+      0,
+      1
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      4
+    ],
+    "family": "SARIMA_s4"
+  },
+  {
+    "class_id": 23,
+    "name": "SARIMA(1, 1, 0)x(0, 1, 1, 4)",
+    "order": [
+      1,
+      1,
+      0
+    ],
+    "seasonal_order": [
+      0,
+      1,
+      1,
+      4
+    ],
+    "family": "SARIMA_s4"
+  },
+  {
+    "class_id": 24,
+    "name": "SARIMA(0, 1, 1)x(1, 1, 0, 4)",
+    "order": [
+      0,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      1,
+      1,
+      0,
+      4
+    ],
+    "family": "SARIMA_s4"
+  },
+  {
+    "class_id": 25,
+    "name": "SARIMA(1, 1, 1)x(0, 1, 1, 4)",
+    "order": [
+      1,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      1,
+      1,
+      4
+    ],
+    "family": "SARIMA_s4"
+  },
+  {
+    "class_id": 26,
+    "name": "SARIMA(0, 0, 0)x(1, 0, 0, 12)",
+    "order": [
+      0,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      12
+    ],
+    "family": "SARIMA_s12"
+  },
+  {
+    "class_id": 27,
+    "name": "SARIMA(0, 0, 0)x(0, 0, 1, 12)",
+    "order": [
+      0,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      1,
+      12
+    ],
+    "family": "SARIMA_s12"
+  },
+  {
+    "class_id": 28,
+    "name": "SARIMA(1, 0, 0)x(1, 0, 0, 12)",
+    "order": [
+      1,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      12
+    ],
+    "family": "SARIMA_s12"
+  },
+  {
+    "class_id": 29,
+    "name": "SARIMA(0, 0, 1)x(0, 0, 1, 12)",
+    "order": [
+      0,
+      0,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      1,
+      12
+    ],
+    "family": "SARIMA_s12"
+  },
+  {
+    "class_id": 30,
+    "name": "SARIMA(1, 0, 1)x(1, 0, 0, 12)",
+    "order": [
+      1,
+      0,
+      1
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      12
+    ],
+    "family": "SARIMA_s12"
+  },
+  {
+    "class_id": 31,
+    "name": "SARIMA(1, 1, 0)x(0, 1, 1, 12)",
+    "order": [
+      1,
+      1,
+      0
+    ],
+    "seasonal_order": [
+      0,
+      1,
+      1,
+      12
+    ],
+    "family": "SARIMA_s12"
+  },
+  {
+    "class_id": 32,
+    "name": "SARIMA(0, 1, 1)x(1, 1, 0, 12)",
+    "order": [
+      0,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      1,
+      1,
+      0,
+      12
+    ],
+    "family": "SARIMA_s12"
+  },
+  {
+    "class_id": 33,
+    "name": "SARIMA(1, 1, 1)x(0, 1, 1, 12)",
+    "order": [
+      1,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      1,
+      1,
+      12
+    ],
+    "family": "SARIMA_s12"
+  },
+  {
+    "class_id": 34,
+    "name": "SARIMA(0, 0, 0)x(1, 0, 0, 7)",
+    "order": [
+      0,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      7
+    ],
+    "family": "SARIMA_s7"
+  },
+  {
+    "class_id": 35,
+    "name": "SARIMA(0, 0, 0)x(0, 0, 1, 7)",
+    "order": [
+      0,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      1,
+      7
+    ],
+    "family": "SARIMA_s7"
+  },
+  {
+    "class_id": 36,
+    "name": "SARIMA(1, 0, 0)x(1, 0, 0, 7)",
+    "order": [
+      1,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      7
+    ],
+    "family": "SARIMA_s7"
+  },
+  {
+    "class_id": 37,
+    "name": "SARIMA(0, 0, 1)x(0, 0, 1, 7)",
+    "order": [
+      0,
+      0,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      1,
+      7
+    ],
+    "family": "SARIMA_s7"
+  },
+  {
+    "class_id": 38,
+    "name": "SARIMA(1, 0, 1)x(1, 0, 0, 7)",
+    "order": [
+      1,
+      0,
+      1
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      7
+    ],
+    "family": "SARIMA_s7"
+  },
+  {
+    "class_id": 39,
+    "name": "SARIMA(1, 1, 0)x(0, 1, 1, 7)",
+    "order": [
+      1,
+      1,
+      0
+    ],
+    "seasonal_order": [
+      0,
+      1,
+      1,
+      7
+    ],
+    "family": "SARIMA_s7"
+  },
+  {
+    "class_id": 40,
+    "name": "SARIMA(0, 1, 1)x(1, 1, 0, 7)",
+    "order": [
+      0,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      1,
+      1,
+      0,
+      7
+    ],
+    "family": "SARIMA_s7"
+  },
+  {
+    "class_id": 41,
+    "name": "SARIMA(1, 1, 1)x(0, 1, 1, 7)",
+    "order": [
+      1,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      1,
+      1,
+      7
+    ],
+    "family": "SARIMA_s7"
+  },
+  {
+    "class_id": 42,
+    "name": "SARIMA(0, 0, 0)x(1, 0, 0, 24)",
+    "order": [
+      0,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      24
+    ],
+    "family": "SARIMA_s24"
+  },
+  {
+    "class_id": 43,
+    "name": "SARIMA(0, 0, 0)x(0, 0, 1, 24)",
+    "order": [
+      0,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      1,
+      24
+    ],
+    "family": "SARIMA_s24"
+  },
+  {
+    "class_id": 44,
+    "name": "SARIMA(1, 0, 0)x(1, 0, 0, 24)",
+    "order": [
+      1,
+      0,
+      0
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      24
+    ],
+    "family": "SARIMA_s24"
+  },
+  {
+    "class_id": 45,
+    "name": "SARIMA(0, 0, 1)x(0, 0, 1, 24)",
+    "order": [
+      0,
+      0,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      0,
+      1,
+      24
+    ],
+    "family": "SARIMA_s24"
+  },
+  {
+    "class_id": 46,
+    "name": "SARIMA(1, 0, 1)x(1, 0, 0, 24)",
+    "order": [
+      1,
+      0,
+      1
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      24
+    ],
+    "family": "SARIMA_s24"
+  },
+  {
+    "class_id": 47,
+    "name": "SARIMA(1, 1, 0)x(0, 1, 1, 24)",
+    "order": [
+      1,
+      1,
+      0
+    ],
+    "seasonal_order": [
+      0,
+      1,
+      1,
+      24
+    ],
+    "family": "SARIMA_s24"
+  },
+  {
+    "class_id": 48,
+    "name": "SARIMA(0, 1, 1)x(1, 1, 0, 24)",
+    "order": [
+      0,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      1,
+      1,
+      0,
+      24
+    ],
+    "family": "SARIMA_s24"
+  },
+  {
+    "class_id": 49,
+    "name": "SARIMA(1, 1, 1)x(0, 1, 1, 24)",
+    "order": [
+      1,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      0,
+      1,
+      1,
+      24
+    ],
+    "family": "SARIMA_s24"
+  }
+]
