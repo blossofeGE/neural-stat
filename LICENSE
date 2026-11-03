@@ -1,0 +1,123 @@
+NEURAL SPECIFICATION CLASSIFIER — ACADEMIC RESEARCH-ONLY LICENSE
+Version 1.0
+Effective date: 2026-11-03
+
+Copyright (c) 2026 BlossofeGE. All rights reserved.
+
+IMPORTANT
+This is a custom, project-specific license. It is not an OSI-approved open-source
+license and is not a standard license such as MIT, Apache-2.0, GPL, or PolyForm.
+By exercising any permission granted below, you agree to these terms.
+
+1. DEFINITIONS
+
+"Software" means the source code and object code in the Neural Specification
+Classifier repository that is owned by BlossofeGE and expressly made available
+under this License.
+
+"Academic Research Purpose" means non-commercial research, scholarly study,
+teaching, or academic evaluation conducted by an individual or an educational
+or research institution. It excludes use that is primarily intended for
+commercial advantage or monetary compensation, and excludes deployment as part
+of a commercial product or service.
+
+"Attribution" means retaining the copyright and license notices and clearly
+identifying BlossofeGE as the original author, identifying the project as
+"Neural Specification Classifier", and providing the repository URL and, once
+available, the associated scientific publication citation/DOI.
+
+2. LIMITED PERMISSION
+
+Subject to compliance with this License, BlossofeGE grants you a non-exclusive,
+worldwide, royalty-free, revocable (only as permitted by applicable law)
+permission to access, run, reproduce, study, and modify the Software solely
+for Academic Research Purposes.
+
+You may publish research findings, analyses, and papers that discuss results
+obtained using the Software. This License does not require you to publish your
+own research outputs or modifications.
+
+3. ATTRIBUTION AND CITATION
+
+For any publication, presentation, report, thesis, or other scholarly output
+that uses or is materially based on the Software, you must:
+
+(a) acknowledge BlossofeGE as the original author of the Software;
+(b) identify the project as Neural Specification Classifier;
+(c) cite the associated scientific publication if and when one is available;
+(d) include the repository URL and, if available, the version number, release,
+    or commit identifier used.
+
+If no associated scientific publication is available, cite the project using
+the metadata in CITATION.cff and include the repository URL.
+
+4. REDISTRIBUTION AND MODIFICATIONS
+
+You may share copies of the Software and modified versions with collaborators
+only for Academic Research Purposes, provided that you:
+
+(a) include a complete copy of this License;
+(b) preserve all copyright, attribution, and disclaimer notices;
+(c) clearly mark files you have modified and describe the modifications;
+(d) do not suggest that BlossofeGE endorses you, your work, or your modifications;
+(e) ensure each recipient is informed that their use is subject to this License.
+
+You may not distribute the Software or a modified version under terms that
+remove or conflict with the restrictions in this License.
+
+5. PROHIBITED USES
+
+Without prior written permission from BlossofeGE, you may not:
+
+(a) use the Software for commercial purposes, including in a product or service
+    offered for sale, paid consulting, or commercial deployment;
+(b) sell, sublicense, rent, or otherwise commercially exploit the Software;
+(c) use the Software outside the Academic Research Purposes defined above;
+(d) remove or misrepresent copyright, authorship, or attribution notices.
+
+A separate written commercial license may be requested from the copyright
+holder. No commercial permission is granted unless it is expressly agreed
+in writing.
+
+6. THIRD-PARTY MATERIAL
+
+This License applies only to material in the repository that BlossofeGE owns
+and has authority to license. Third-party libraries, datasets, model weights,
+and other materials remain subject to their own licenses and terms. You are
+responsible for reviewing and complying with those terms. Nothing here grants
+rights to third-party material.
+
+7. NO TRADEMARK OR PATENT LICENSE
+
+No trademark, patent, or other intellectual-property rights are granted except
+for the limited copyright permissions expressly stated in this License.
+
+8. DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT
+PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION
+WITH THE SOFTWARE OR ITS USE.
+
+9. TERMINATION
+
+If you materially breach this License, the permissions granted to you terminate
+to the extent permitted by applicable law. If the breach is capable of remedy,
+the permissions may be reinstated if you fully remedy it within 30 days after
+receiving written notice from the copyright holder.
+
+10. GOVERNING LAW
+
+The governing law and dispute-resolution provisions, if required, should be
+completed with advice from a qualified lawyer in the relevant jurisdiction.
+Nothing in this section excludes mandatory rights or protections under
+applicable law.
+
+11. CONTACT
+
+Copyright holder: BlossofeGE
+Project: Neural Specification Classifier
+For permissions, including commercial licensing, contact the copyright holder
+through the contact method published in the project's GitHub repository.
