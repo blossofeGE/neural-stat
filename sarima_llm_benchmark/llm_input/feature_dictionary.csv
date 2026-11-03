@@ -1,0 +1,32 @@
+﻿feature,description
+log_n,Натуральный логарифм длины временного ряда.
+adf_c,p-value теста ADF с константой (regression='c').
+adf_ct,p-value теста ADF с константой и линейным трендом (regression='ct').
+adf_ctt,"p-value теста ADF с константой, линейным и квадратичным трендом (regression='ctt')."
+kpss_c,p-value теста KPSS с константой (regression='c').
+kpss_ct,p-value теста KPSS с константой и линейным трендом (regression='ct').
+acf_1,Значение ACF на лаге 1.
+acf_2,Значение ACF на лаге 2.
+acf_3,Значение ACF на лаге 3.
+acf_4,Значение ACF на лаге 4.
+acf_7,Значение ACF на лаге 7.
+acf_8,Значение ACF на лаге 8.
+acf_12,Значение ACF на лаге 12.
+acf_16,Значение ACF на лаге 16.
+acf_24,Значение ACF на лаге 24.
+pacf_1,Значение PACF на лаге 1.
+pacf_2,Значение PACF на лаге 2.
+pacf_3,Значение PACF на лаге 3.
+pacf_4,Значение PACF на лаге 4.
+pacf_7,Значение PACF на лаге 7.
+pacf_8,Значение PACF на лаге 8.
+pacf_12,Значение PACF на лаге 12.
+pacf_16,Значение PACF на лаге 16.
+pacf_24,Значение PACF на лаге 24.
+variance_ratio_1,log((var(diff(x))+1e-9)/(var(x)+1e-9)).
+variance_ratio_2,"log((var(diff(x, n=2))+1e-9)/(var(diff(x))+1e-9))."
+trend_strength,"clip(abs(linear_slope)*n/(std(x)+1e-9), 0, 20)."
+seasonal_strength_4,"Сезонная сила для периода 4, рассчитанная по средним значениям фаз."
+seasonal_strength_8,"Сезонная сила для периода 8, рассчитанная по средним значениям фаз."
+seasonal_strength_12,"Сезонная сила для периода 12, рассчитанная по средним значениям фаз."
+bic_winner,"Индекс класса с минимальным BIC среди 42 SARIMAX-кандидатов. Это сильная дополнительная подсказка, поэтому отдельно предусмотрен тест без этого признака."

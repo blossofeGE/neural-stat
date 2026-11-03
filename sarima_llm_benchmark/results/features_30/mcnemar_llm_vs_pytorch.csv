@@ -1,0 +1,2 @@
+comparison,llm_correct_baseline_wrong,llm_wrong_baseline_correct,discordant_pairs,mcnemar_exact_p,mcnemar_chi2_cc_statistic,mcnemar_chi2_cc_p
+LLM (features_30) vs PyTorch MLP (30 features),53,176,229,1.3137805721296227e-16,64.99563318777292,7.50642311485991e-16
