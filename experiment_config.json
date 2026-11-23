@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "n_samples": 8400,
+  "min_length": 96,
+  "max_length": 192,
+  "sarimax_maxiter": 20,
+  "workers": 4,
+  "checkpoint_every": 50,
+  "train_fraction": 0.7,
+  "validation_fraction": 0.15,
+  "test_fraction": 0.15,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "max_epochs": 200,
+  "early_stopping_patience": 18,
+  "dropout_1": 0.1,
+  "dropout_2": 0.05,
+  "bootstrap_replicates": 1000,
+  "llm_batch_size_features": 25,
+  "llm_batch_size_raw": 10
+}

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+data/*.npz
+models/*.pt
+artifacts/*.npz
+artifacts/*.json
+results/*
+logs/*
+benchmark/llm_input/*
+benchmark/private_evaluation/*
+benchmark/results/*
+benchmark/llm_benchmark_input_only.zip

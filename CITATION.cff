@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software in academic work, please cite it as below and cite the associated paper when one is available."
+title: "Neural Specification Classifier"
+type: software
+authors:
+  - name: "BlossofeGE"
+version: "1.0.0"
+date-released: "2026-11-03"
+abstract: "Software for the Neural Specification Classifier research project."
+license: "LicenseRef-Academic-Research-Only"
+repository-code: "https://github.com/blossofeGE/neural-stat"
+keywords:
+  - academic research
+  - scientific software
+  - classifier

@@ -1,0 +1,29 @@
+{
+  "provider": "OpenAI",
+  "model_name": "GPT-6",
+  "model_version_or_snapshot": "GPT-6, ChatGPT consumer interface; exact snapshot not exposed",
+  "access_mode": "web_ui",
+  "run_date_utc": "2026-11-23",
+  "track": "features31",
+  "temperature": null,
+  "top_p": null,
+  "seed": null,
+  "reasoning_effort_or_mode": "Not exposed by the interface",
+  "prompt_version": "sarima-llm-benchmark-v3-features31",
+  "batch_files_expected": 51,
+  "batch_files_processed": 51,
+  "input_rows_expected": 1260,
+  "input_rows_processed": 1260,
+  "output_rows": 1260,
+  "unique_series_ids": 1260,
+  "missing_series_ids": [],
+  "duplicate_series_ids": [],
+  "bic_winner_policy": "Used as categorical evidence; not copied automatically",
+  "manual_edits": [],
+  "retries_or_failures": [],
+  "context_truncation": false,
+  "tools_used": [
+    "Python local file processing for ZIP inspection, batch parsing, classification, and validation; no web search, raw-series analysis, or external model calls"
+  ],
+  "notes": "All 51 FEATURES31 batches were processed. Predictions use the supplied diagnostic features jointly, with bic_winner treated as a categorical candidate; only clear feature contradictions triggered a reassignment. Confidence is subjective and uncalibrated. Temperature, top_p, seed, exact model snapshot, and reasoning-effort setting are not exposed by the interface and are therefore null/not reported. The archive's raw-series file was not opened or used."
+}

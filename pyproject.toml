@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-arima-sarima-selector"
+version = "2.0.0"
+description = "Reproducible neural ARIMA/SARIMA specification selection with blinded LLM benchmark"
+requires-python = ">=3.10"
+readme = "README_RU.md"
+license = {file = "LICENSE"}
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.0,<3",
+  "scipy>=1.11,<2",
+  "statsmodels>=0.14,<0.15",
+  "scikit-learn>=1.4,<2",
+  "torch>=2.2",
+  "matplotlib>=3.8",
+  "threadpoolctl>=3.2",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

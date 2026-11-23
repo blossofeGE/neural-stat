@@ -1,0 +1,9 @@
+RAW_SERIES benchmark run notes
+
+- Read all 126 files under batches/raw_series/ from the supplied ZIP archive.
+- Grouped rows by series_id and sorted each group by time_index ascending before reconstructing the numeric sequence.
+- Reconstructed all 1,260 unique series using every available time point; no duplicate (series_id, time_index) pairs or missing values were found.
+- Final classifications were based only on raw-series stationarity tests, short-lag ACF/PACF, seasonal-lag dependence, and the authoritative class catalogue. No FEATURES31 file, hidden labels, answer key, or BIC output was used.
+- An exploratory all-class conditional-sum-of-squares fitting pass was interrupted by the execution time limit and was not used for the final predictions. The completed run used direct raw-series heuristics; confidence values are subjective and uncalibrated.
+- No batch file was retried or truncated. All 126 batch files and all 1,260 series were processed.
+- Completeness checks passed: 1,260 output rows, 1,260 unique series IDs, no missing or duplicate IDs, all class IDs in 0..41, all specifications exactly matched the catalogue, and all confidence values were in [0, 1].

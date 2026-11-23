@@ -1,0 +1,31 @@
+{
+  "provider": "OpenAI",
+  "model_name": "GPT-6",
+  "model_version_or_snapshot": "GPT-6, ChatGPT consumer interface; exact snapshot not exposed",
+  "access_mode": "web_ui",
+  "run_date_utc": "2026-11-23",
+  "track": "raw_series",
+  "temperature": null,
+  "top_p": null,
+  "seed": null,
+  "reasoning_effort_or_mode": "Not exposed in the interface",
+  "prompt_version": "sarima-llm-benchmark-v3-raw-series",
+  "batch_files_expected": 126,
+  "batch_files_processed": 126,
+  "series_expected": 1260,
+  "series_processed": 1260,
+  "output_rows": 1260,
+  "unique_series_ids": 1260,
+  "missing_series_ids": [],
+  "duplicate_series_ids": [],
+  "manual_edits": [],
+  "retries_or_failures": [
+    "An exploratory all-class conditional-sum-of-squares fitting pass was interrupted by the execution time limit; it was not used to produce the final predictions."
+  ],
+  "context_truncation": false,
+  "tools_used": [
+    "Python execution for ZIP/CSV ingestion, series reconstruction, and raw-series stationarity/autocorrelation calculations",
+    "No web search, external model, FEATURES31 data, BIC, or hidden labels"
+  ],
+  "notes": "All 126 raw-series batch files were read. Each series was grouped by series_id and sorted by time_index. Final class assignments use raw-observation stationarity, ACF/PACF, and seasonal-lag heuristics mapped to the authoritative class catalogue. Confidence is subjective and not calibrated; the model snapshot and sampling settings are not exposed."
+}

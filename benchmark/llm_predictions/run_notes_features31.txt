@@ -1,0 +1,8 @@
+FEATURES31 run notes
+
+- Processed batch_001.csv through batch_051.csv from batches/features31/ individually, then concatenated the rows by their unchanged series_id.
+- All 51 expected batch files were found; 1,260 input rows were processed. No batch required a retry, and no batch was truncated.
+- bic_winner was treated as a categorical candidate, not an ordinal value or an automatic answer. Diagnostic evidence (ADF/KPSS, ACF/PACF, variance ratios, trend strength, and seasonal strengths at periods 4, 8, and 12) was considered jointly. Clear seasonal-period or differencing contradictions could override the BIC candidate.
+- Classification is inherently uncertain from these engineered summaries: AR versus MA orders can have similar diagnostics, and the supplied features do not uniquely identify every generating specification. Confidence scores are subjective, not calibrated probabilities.
+- The raw-series file was not opened or used. No external search, hidden labels, answer keys, evaluation files, or other models were used.
+- Completeness checks PASSED: 51/51 batches; 1,260/1,260 rows; 1,260 unique IDs; no duplicate, missing, or extra IDs; all class IDs in 0..41; every specification matches class_catalog.csv; all confidence values are within [0,1].
